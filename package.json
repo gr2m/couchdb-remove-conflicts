@@ -1,0 +1,35 @@
+{
+  "name": "couchdb-remove-conflicts",
+  "description": "CLI tool to remove all conflicts from a CouchDB database",
+  "main": "index.js",
+  "bin": "./bin/couchdb-remove-conflicts.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "echo YOLO && exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/couchdb-remove-conflicts.git"
+  },
+  "keywords": [
+    "couchdb"
+  ],
+  "author": "Gregor Martynus <gregor@martynus.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gr2m/couchdb-remove-conflicts/issues"
+  },
+  "homepage": "https://github.com/gr2m/couchdb-remove-conflicts#readme",
+  "dependencies": {
+    "async": "^1.5.0",
+    "minimist": "^1.2.0",
+    "nano": "^6.1.5",
+    "npmlog": "^2.0.0"
+  },
+  "devDependencies": {
+    "lodash": "^3.10.1",
+    "standard": "^5.4.1",
+    "semantic-release": "^6.0.3"
+  }
+}
