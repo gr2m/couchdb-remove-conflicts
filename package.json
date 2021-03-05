@@ -8,19 +8,12 @@
     "test": "echo YOLO && exit 0",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gr2m/couchdb-remove-conflicts.git"
-  },
+  "repository": "github:gr2m/couchdb-remove-conflicts",
   "keywords": [
     "couchdb"
   ],
   "author": "Gregor Martynus <gregor@martynus.net>",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/gr2m/couchdb-remove-conflicts/issues"
-  },
-  "homepage": "https://github.com/gr2m/couchdb-remove-conflicts#readme",
   "dependencies": {
     "async": "^1.5.0",
     "minimist": "^1.2.0",
